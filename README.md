@@ -147,7 +147,7 @@ flowchart TD
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/cryptoscope.git
+   git clone https://github.com/brad-basilio/cryptoscope.git
    cd cryptoscope/cryptoscope-laravel
    ```
 
@@ -172,9 +172,9 @@ flowchart TD
    ```bash
    php artisan migrate --seed
    ```
-   > Esto creará las tablas SQLite y sembrará la cuenta **Super Admin**:
+   > This initializes the SQLite database and seeds the default **Super Admin** credential:
    > - **Email:** `admin@cryptoscope.mousydev.website`
-   > - **Contraseña:** `Admin2026!CryptoScope`
+   > - **Password:** `Admin2026!CryptoScope`
 
 6. **Build assets & Start server:**
    ```bash
