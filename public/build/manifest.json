@@ -1,0 +1,306 @@
+{
+  "_AppLayout-BbUoyWQu.js": {
+    "file": "assets/AppLayout-BbUoyWQu.js",
+    "name": "AppLayout",
+    "imports": [
+      "resources/js/app.jsx",
+      "_CryptoScopeLogo-oM09lSc_.js"
+    ]
+  },
+  "_CryptoScopeLogo-oM09lSc_.js": {
+    "file": "assets/CryptoScopeLogo-oM09lSc_.js",
+    "name": "CryptoScopeLogo",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_D3Gauge-D3xuZYcQ.js": {
+    "file": "assets/D3Gauge-D3xuZYcQ.js",
+    "name": "D3Gauge",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_GuestLayout-ZT40o9DF.js": {
+    "file": "assets/GuestLayout-ZT40o9DF.js",
+    "name": "GuestLayout",
+    "imports": [
+      "resources/js/app.jsx",
+      "_CryptoScopeLogo-oM09lSc_.js"
+    ]
+  },
+  "_InputError-BKnCfFdm.js": {
+    "file": "assets/InputError-BKnCfFdm.js",
+    "name": "InputError",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_PieChart-BUcWXTEn.js": {
+    "file": "assets/PieChart-BUcWXTEn.js",
+    "name": "PieChart",
+    "imports": [
+      "resources/js/app.jsx",
+      "_D3Gauge-D3xuZYcQ.js",
+      "_with-selector-DIZvrzoA.js"
+    ]
+  },
+  "_transition-C7AQ27-2.js": {
+    "file": "assets/transition-C7AQ27-2.js",
+    "name": "transition",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_with-selector-DIZvrzoA.js": {
+    "file": "assets/with-selector-DIZvrzoA.js",
+    "name": "with-selector",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Admin/Dashboard.jsx": {
+    "file": "assets/Dashboard-e-YGToE4.js",
+    "name": "Dashboard",
+    "src": "resources/js/Pages/Admin/Dashboard.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-BbUoyWQu.js",
+      "_CryptoScopeLogo-oM09lSc_.js"
+    ]
+  },
+  "resources/js/Pages/Alerts.jsx": {
+    "file": "assets/Alerts-DPrHH_9Z.js",
+    "name": "Alerts",
+    "src": "resources/js/Pages/Alerts.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-BbUoyWQu.js",
+      "_CryptoScopeLogo-oM09lSc_.js"
+    ]
+  },
+  "resources/js/Pages/Auth/ConfirmPassword.jsx": {
+    "file": "assets/ConfirmPassword-ClbLG73E.js",
+    "name": "ConfirmPassword",
+    "src": "resources/js/Pages/Auth/ConfirmPassword.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_InputError-BKnCfFdm.js",
+      "_GuestLayout-ZT40o9DF.js",
+      "_CryptoScopeLogo-oM09lSc_.js"
+    ]
+  },
+  "resources/js/Pages/Auth/ForgotPassword.jsx": {
+    "file": "assets/ForgotPassword-Dhm_8BWd.js",
+    "name": "ForgotPassword",
+    "src": "resources/js/Pages/Auth/ForgotPassword.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_InputError-BKnCfFdm.js",
+      "_GuestLayout-ZT40o9DF.js",
+      "_CryptoScopeLogo-oM09lSc_.js"
+    ]
+  },
+  "resources/js/Pages/Auth/Login.jsx": {
+    "file": "assets/Login-897dIleq.js",
+    "name": "Login",
+    "src": "resources/js/Pages/Auth/Login.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_InputError-BKnCfFdm.js",
+      "_GuestLayout-ZT40o9DF.js",
+      "_CryptoScopeLogo-oM09lSc_.js"
+    ]
+  },
+  "resources/js/Pages/Auth/Register.jsx": {
+    "file": "assets/Register-Dd1gP_Sp.js",
+    "name": "Register",
+    "src": "resources/js/Pages/Auth/Register.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_InputError-BKnCfFdm.js",
+      "_GuestLayout-ZT40o9DF.js",
+      "_CryptoScopeLogo-oM09lSc_.js"
+    ]
+  },
+  "resources/js/Pages/Auth/ResetPassword.jsx": {
+    "file": "assets/ResetPassword-uhmV_b3S.js",
+    "name": "ResetPassword",
+    "src": "resources/js/Pages/Auth/ResetPassword.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_InputError-BKnCfFdm.js",
+      "_GuestLayout-ZT40o9DF.js",
+      "_CryptoScopeLogo-oM09lSc_.js"
+    ]
+  },
+  "resources/js/Pages/Auth/VerifyEmail.jsx": {
+    "file": "assets/VerifyEmail-DAGVx_3P.js",
+    "name": "VerifyEmail",
+    "src": "resources/js/Pages/Auth/VerifyEmail.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_GuestLayout-ZT40o9DF.js",
+      "_CryptoScopeLogo-oM09lSc_.js"
+    ]
+  },
+  "resources/js/Pages/Dashboard.jsx": {
+    "file": "assets/Dashboard-BG5CnslU.js",
+    "name": "Dashboard",
+    "src": "resources/js/Pages/Dashboard.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_CryptoScopeLogo-oM09lSc_.js",
+      "_transition-C7AQ27-2.js"
+    ]
+  },
+  "resources/js/Pages/MarketPulse.jsx": {
+    "file": "assets/MarketPulse-DLIMWLBz.js",
+    "name": "MarketPulse",
+    "src": "resources/js/Pages/MarketPulse.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-BbUoyWQu.js",
+      "_D3Gauge-D3xuZYcQ.js",
+      "_PieChart-BUcWXTEn.js",
+      "_CryptoScopeLogo-oM09lSc_.js",
+      "_with-selector-DIZvrzoA.js"
+    ]
+  },
+  "resources/js/Pages/Portfolio.jsx": {
+    "file": "assets/Portfolio-DTngxhSY.js",
+    "name": "Portfolio",
+    "src": "resources/js/Pages/Portfolio.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-BbUoyWQu.js",
+      "_D3Gauge-D3xuZYcQ.js",
+      "_PieChart-BUcWXTEn.js",
+      "_CryptoScopeLogo-oM09lSc_.js",
+      "_with-selector-DIZvrzoA.js"
+    ]
+  },
+  "resources/js/Pages/Profile/Edit.jsx": {
+    "file": "assets/Edit-B655bR7H.js",
+    "name": "Edit",
+    "src": "resources/js/Pages/Profile/Edit.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-BbUoyWQu.js",
+      "resources/js/Pages/Profile/Partials/DeleteUserForm.jsx",
+      "resources/js/Pages/Profile/Partials/UpdatePasswordForm.jsx",
+      "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.jsx",
+      "_CryptoScopeLogo-oM09lSc_.js",
+      "_InputError-BKnCfFdm.js",
+      "_transition-C7AQ27-2.js",
+      "_with-selector-DIZvrzoA.js"
+    ]
+  },
+  "resources/js/Pages/Profile/Partials/DeleteUserForm.jsx": {
+    "file": "assets/DeleteUserForm-xCwSnNyy.js",
+    "name": "DeleteUserForm",
+    "src": "resources/js/Pages/Profile/Partials/DeleteUserForm.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_InputError-BKnCfFdm.js",
+      "_transition-C7AQ27-2.js",
+      "_with-selector-DIZvrzoA.js"
+    ]
+  },
+  "resources/js/Pages/Profile/Partials/UpdatePasswordForm.jsx": {
+    "file": "assets/UpdatePasswordForm-BYwgP14M.js",
+    "name": "UpdatePasswordForm",
+    "src": "resources/js/Pages/Profile/Partials/UpdatePasswordForm.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_InputError-BKnCfFdm.js",
+      "_transition-C7AQ27-2.js"
+    ]
+  },
+  "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.jsx": {
+    "file": "assets/UpdateProfileInformationForm-Dlf-exIg.js",
+    "name": "UpdateProfileInformationForm",
+    "src": "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_InputError-BKnCfFdm.js",
+      "_transition-C7AQ27-2.js"
+    ]
+  },
+  "resources/js/Pages/Screener.jsx": {
+    "file": "assets/Screener-JlOfczSQ.js",
+    "name": "Screener",
+    "src": "resources/js/Pages/Screener.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-BbUoyWQu.js",
+      "_D3Gauge-D3xuZYcQ.js",
+      "_CryptoScopeLogo-oM09lSc_.js"
+    ]
+  },
+  "resources/js/Pages/Welcome.jsx": {
+    "file": "assets/Welcome-BfKoBf8J.js",
+    "name": "Welcome",
+    "src": "resources/js/Pages/Welcome.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/WhaleDetector.jsx": {
+    "file": "assets/WhaleDetector-t5hVUrv4.js",
+    "name": "WhaleDetector",
+    "src": "resources/js/Pages/WhaleDetector.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-BbUoyWQu.js",
+      "_CryptoScopeLogo-oM09lSc_.js"
+    ]
+  },
+  "resources/js/app.jsx": {
+    "file": "assets/app-B8L-gpFG.js",
+    "name": "app",
+    "src": "resources/js/app.jsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/Admin/Dashboard.jsx",
+      "resources/js/Pages/Alerts.jsx",
+      "resources/js/Pages/Auth/ConfirmPassword.jsx",
+      "resources/js/Pages/Auth/ForgotPassword.jsx",
+      "resources/js/Pages/Auth/Login.jsx",
+      "resources/js/Pages/Auth/Register.jsx",
+      "resources/js/Pages/Auth/ResetPassword.jsx",
+      "resources/js/Pages/Auth/VerifyEmail.jsx",
+      "resources/js/Pages/Dashboard.jsx",
+      "resources/js/Pages/MarketPulse.jsx",
+      "resources/js/Pages/Portfolio.jsx",
+      "resources/js/Pages/Profile/Edit.jsx",
+      "resources/js/Pages/Profile/Partials/DeleteUserForm.jsx",
+      "resources/js/Pages/Profile/Partials/UpdatePasswordForm.jsx",
+      "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.jsx",
+      "resources/js/Pages/Screener.jsx",
+      "resources/js/Pages/Welcome.jsx",
+      "resources/js/Pages/WhaleDetector.jsx"
+    ],
+    "css": [
+      "assets/app-BKUt7GUR.css"
+    ]
+  }
+}
