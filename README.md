@@ -15,9 +15,14 @@
 ---
 
 ### 🎥 Video Demonstration & Pitch
-Watch the complete walkthrough and architecture demonstration of CryptoScope:  
-▶️ **[Watch the Video Demo on YouTube](https://youtu.be/DR06dqpHheo)**  
-🌐 **[Explore the Live Production App](https://cryptoscope.mousydev.website)**
+
+<div align="center">
+
+[![CryptoScope Video Demo](https://img.youtube.com/vi/DR06dqpHheo/maxresdefault.jpg)](https://youtu.be/DR06dqpHheo)
+
+▶️ **[Click here to watch the official demo on YouTube](https://youtu.be/DR06dqpHheo)** &nbsp;|&nbsp; 🌐 **[Explore the Live Production App](https://cryptoscope.mousydev.website)**
+
+</div>
 
 ---
 
