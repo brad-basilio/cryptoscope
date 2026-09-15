@@ -4,11 +4,20 @@
 > Built for the **Build with CMC: API Hackathon** (Track: *Markets and Trading Tools* & *Data and Visualisation*).
 
 [![CoinMarketCap Pro API](https://img.shields.io/badge/CoinMarketCap%20API-6%20Endpoints%20Integrated-1756FF?style=for-the-badge&logo=coinmarketcap&logoColor=white)](https://coinmarketcap.com/api/)
+[![Video Demo](https://img.shields.io/badge/Video%20Demo-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/DR06dqpHheo)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-cryptoscope.mousydev.website-10b981?style=for-the-badge&logo=googlechrome&logoColor=white)](https://cryptoscope.mousydev.website)
 [![Laravel 12](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
 [![Inertia.js v2](https://img.shields.io/badge/Inertia.js-v2.0-9553E9?style=for-the-badge&logo=inertia&logoColor=white)](https://inertiajs.com)
 [![React 18](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
 [![Tailwind & Shadcn UI](https://img.shields.io/badge/UI-Shadcn%20%2F%20Dark%20Matte-09090b?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://ui.shadcn.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald?style=for-the-badge)](LICENSE)
+
+---
+
+### 🎥 Video Demonstration & Pitch
+Watch the complete walkthrough and architecture demonstration of CryptoScope:  
+▶️ **[Watch the Video Demo on YouTube](https://youtu.be/DR06dqpHheo)**  
+🌐 **[Explore the Live Production App](https://cryptoscope.mousydev.website)**
 
 ---
 
