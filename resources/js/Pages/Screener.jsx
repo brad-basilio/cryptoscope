@@ -68,11 +68,37 @@ export default function Screener({
   const [alertTarget, setAlertTarget] = useState('')
   const [actionSuccess, setActionSuccess] = useState('')
 
+  const [selectedTag, setSelectedTag] = useState(activeTag || '')
+
   // Filtrado y Ordenamiento
   const filteredCoins = useMemo(() => {
     let list = coins.filter(c => {
       const q = query.toLowerCase()
-      return c.name.toLowerCase().includes(q) || c.symbol.toLowerCase().includes(q)
+      const matchesSearch = c.name.toLowerCase().includes(q) || c.symbol.toLowerCase().includes(q)
+      if (!matchesSearch) return false
+
+      if (!selectedTag) return true
+
+      const coinTags = (c.tags || []).map(t => String(t).toLowerCase())
+      const tagNeedle = selectedTag.toLowerCase().replace('-', ' ')
+
+      if (selectedTag === 'defi') {
+        return coinTags.some(t => t.includes('defi') || t.includes('decentralized-exchange') || t.includes('yield-farming'))
+      }
+      if (selectedTag === 'layer-1') {
+        return coinTags.some(t => t.includes('layer-1') || t.includes('smart-contracts') || t.includes('pos') || t.includes('pow'))
+      }
+      if (selectedTag === 'ai-big-data') {
+        return coinTags.some(t => t.includes('ai') || t.includes('artificial-intelligence') || t.includes('big-data'))
+      }
+      if (selectedTag === 'memes') {
+        return coinTags.some(t => t.includes('meme') || t.includes('memes'))
+      }
+      if (selectedTag === 'real-world-assets') {
+        return coinTags.some(t => t.includes('rwa') || t.includes('real-world-assets') || t.includes('tokenized-gold'))
+      }
+
+      return coinTags.some(t => t.includes(selectedTag) || t.includes(tagNeedle))
     })
 
     if (preset === 'bullish') {
@@ -92,11 +118,11 @@ export default function Screener({
     })
 
     return list
-  }, [coins, query, preset, sortKey, sortDir])
+  }, [coins, query, preset, sortKey, sortDir, selectedTag])
 
   function handleSort(key) {
     if (sortKey === key) {
-      setSortDir(d => d === 'asc' ? 'desc' : 'asc')
+      setSortDir(sortDir === 'asc' ? 'desc' : 'asc')
     } else {
       setSortKey(key)
       setSortDir('desc')
@@ -104,7 +130,7 @@ export default function Screener({
   }
 
   function handleTagChange(tag) {
-    router.get('/screener', { tag, sort: activeSort }, { preserveState: false })
+    setSelectedTag(tag)
   }
 
   function quickAddHolding(coin) {
@@ -280,7 +306,7 @@ export default function Screener({
               key={cat.value}
               onClick={() => handleTagChange(cat.value)}
               className={`px-3 py-1 rounded-md text-xs font-medium transition-colors ${
-                activeTag === cat.value
+                selectedTag === cat.value
                   ? 'bg-zinc-800 text-zinc-100 shadow-sm'
                   : 'text-zinc-400 hover:text-zinc-100 hover:bg-zinc-800/40'
               }`}

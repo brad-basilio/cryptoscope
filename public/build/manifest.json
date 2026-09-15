@@ -1,261 +1,261 @@
 {
-  "_AppLayout-BbUoyWQu.js": {
-    "file": "assets/AppLayout-BbUoyWQu.js",
+  "_AppLayout-Duqf78qZ.js": {
+    "file": "assets/AppLayout-Duqf78qZ.js",
     "name": "AppLayout",
     "imports": [
       "resources/js/app.jsx",
-      "_CryptoScopeLogo-oM09lSc_.js"
+      "_CryptoScopeLogo-CN4WL7fi.js"
     ]
   },
-  "_CryptoScopeLogo-oM09lSc_.js": {
-    "file": "assets/CryptoScopeLogo-oM09lSc_.js",
+  "_CryptoScopeLogo-CN4WL7fi.js": {
+    "file": "assets/CryptoScopeLogo-CN4WL7fi.js",
     "name": "CryptoScopeLogo",
     "imports": [
       "resources/js/app.jsx"
     ]
   },
-  "_D3Gauge-D3xuZYcQ.js": {
-    "file": "assets/D3Gauge-D3xuZYcQ.js",
+  "_D3Gauge-BbVbPAJm.js": {
+    "file": "assets/D3Gauge-BbVbPAJm.js",
     "name": "D3Gauge",
     "imports": [
       "resources/js/app.jsx"
     ]
   },
-  "_GuestLayout-ZT40o9DF.js": {
-    "file": "assets/GuestLayout-ZT40o9DF.js",
+  "_GuestLayout-CxEQPnoh.js": {
+    "file": "assets/GuestLayout-CxEQPnoh.js",
     "name": "GuestLayout",
     "imports": [
       "resources/js/app.jsx",
-      "_CryptoScopeLogo-oM09lSc_.js"
+      "_CryptoScopeLogo-CN4WL7fi.js"
     ]
   },
-  "_InputError-BKnCfFdm.js": {
-    "file": "assets/InputError-BKnCfFdm.js",
+  "_InputError-0RHTTgzp.js": {
+    "file": "assets/InputError-0RHTTgzp.js",
     "name": "InputError",
     "imports": [
       "resources/js/app.jsx"
     ]
   },
-  "_PieChart-BUcWXTEn.js": {
-    "file": "assets/PieChart-BUcWXTEn.js",
+  "_PieChart-CItoodWq.js": {
+    "file": "assets/PieChart-CItoodWq.js",
     "name": "PieChart",
     "imports": [
       "resources/js/app.jsx",
-      "_D3Gauge-D3xuZYcQ.js",
-      "_with-selector-DIZvrzoA.js"
+      "_D3Gauge-BbVbPAJm.js",
+      "_with-selector-DFi0ZFne.js"
     ]
   },
-  "_transition-C7AQ27-2.js": {
-    "file": "assets/transition-C7AQ27-2.js",
+  "_transition-qK7heeGO.js": {
+    "file": "assets/transition-qK7heeGO.js",
     "name": "transition",
     "imports": [
       "resources/js/app.jsx"
     ]
   },
-  "_with-selector-DIZvrzoA.js": {
-    "file": "assets/with-selector-DIZvrzoA.js",
+  "_with-selector-DFi0ZFne.js": {
+    "file": "assets/with-selector-DFi0ZFne.js",
     "name": "with-selector",
     "imports": [
       "resources/js/app.jsx"
     ]
   },
   "resources/js/Pages/Admin/Dashboard.jsx": {
-    "file": "assets/Dashboard-e-YGToE4.js",
+    "file": "assets/Dashboard-B2J5F-rI.js",
     "name": "Dashboard",
     "src": "resources/js/Pages/Admin/Dashboard.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_AppLayout-BbUoyWQu.js",
-      "_CryptoScopeLogo-oM09lSc_.js"
+      "_AppLayout-Duqf78qZ.js",
+      "_CryptoScopeLogo-CN4WL7fi.js"
     ]
   },
   "resources/js/Pages/Alerts.jsx": {
-    "file": "assets/Alerts-DPrHH_9Z.js",
+    "file": "assets/Alerts-DUiBkNNx.js",
     "name": "Alerts",
     "src": "resources/js/Pages/Alerts.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_AppLayout-BbUoyWQu.js",
-      "_CryptoScopeLogo-oM09lSc_.js"
+      "_AppLayout-Duqf78qZ.js",
+      "_CryptoScopeLogo-CN4WL7fi.js"
     ]
   },
   "resources/js/Pages/Auth/ConfirmPassword.jsx": {
-    "file": "assets/ConfirmPassword-ClbLG73E.js",
+    "file": "assets/ConfirmPassword-BUtyA2V2.js",
     "name": "ConfirmPassword",
     "src": "resources/js/Pages/Auth/ConfirmPassword.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_InputError-BKnCfFdm.js",
-      "_GuestLayout-ZT40o9DF.js",
-      "_CryptoScopeLogo-oM09lSc_.js"
+      "_InputError-0RHTTgzp.js",
+      "_GuestLayout-CxEQPnoh.js",
+      "_CryptoScopeLogo-CN4WL7fi.js"
     ]
   },
   "resources/js/Pages/Auth/ForgotPassword.jsx": {
-    "file": "assets/ForgotPassword-Dhm_8BWd.js",
+    "file": "assets/ForgotPassword-lDcneUPc.js",
     "name": "ForgotPassword",
     "src": "resources/js/Pages/Auth/ForgotPassword.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_InputError-BKnCfFdm.js",
-      "_GuestLayout-ZT40o9DF.js",
-      "_CryptoScopeLogo-oM09lSc_.js"
+      "_InputError-0RHTTgzp.js",
+      "_GuestLayout-CxEQPnoh.js",
+      "_CryptoScopeLogo-CN4WL7fi.js"
     ]
   },
   "resources/js/Pages/Auth/Login.jsx": {
-    "file": "assets/Login-897dIleq.js",
+    "file": "assets/Login-BUl97tQ2.js",
     "name": "Login",
     "src": "resources/js/Pages/Auth/Login.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_InputError-BKnCfFdm.js",
-      "_GuestLayout-ZT40o9DF.js",
-      "_CryptoScopeLogo-oM09lSc_.js"
+      "_InputError-0RHTTgzp.js",
+      "_GuestLayout-CxEQPnoh.js",
+      "_CryptoScopeLogo-CN4WL7fi.js"
     ]
   },
   "resources/js/Pages/Auth/Register.jsx": {
-    "file": "assets/Register-Dd1gP_Sp.js",
+    "file": "assets/Register-tKE6QEQW.js",
     "name": "Register",
     "src": "resources/js/Pages/Auth/Register.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_InputError-BKnCfFdm.js",
-      "_GuestLayout-ZT40o9DF.js",
-      "_CryptoScopeLogo-oM09lSc_.js"
+      "_InputError-0RHTTgzp.js",
+      "_GuestLayout-CxEQPnoh.js",
+      "_CryptoScopeLogo-CN4WL7fi.js"
     ]
   },
   "resources/js/Pages/Auth/ResetPassword.jsx": {
-    "file": "assets/ResetPassword-uhmV_b3S.js",
+    "file": "assets/ResetPassword-BIJ55_fB.js",
     "name": "ResetPassword",
     "src": "resources/js/Pages/Auth/ResetPassword.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_InputError-BKnCfFdm.js",
-      "_GuestLayout-ZT40o9DF.js",
-      "_CryptoScopeLogo-oM09lSc_.js"
+      "_InputError-0RHTTgzp.js",
+      "_GuestLayout-CxEQPnoh.js",
+      "_CryptoScopeLogo-CN4WL7fi.js"
     ]
   },
   "resources/js/Pages/Auth/VerifyEmail.jsx": {
-    "file": "assets/VerifyEmail-DAGVx_3P.js",
+    "file": "assets/VerifyEmail-BFoN1wuz.js",
     "name": "VerifyEmail",
     "src": "resources/js/Pages/Auth/VerifyEmail.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_GuestLayout-ZT40o9DF.js",
-      "_CryptoScopeLogo-oM09lSc_.js"
+      "_GuestLayout-CxEQPnoh.js",
+      "_CryptoScopeLogo-CN4WL7fi.js"
     ]
   },
   "resources/js/Pages/Dashboard.jsx": {
-    "file": "assets/Dashboard-BG5CnslU.js",
+    "file": "assets/Dashboard-B0_77o7q.js",
     "name": "Dashboard",
     "src": "resources/js/Pages/Dashboard.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_CryptoScopeLogo-oM09lSc_.js",
-      "_transition-C7AQ27-2.js"
+      "_CryptoScopeLogo-CN4WL7fi.js",
+      "_transition-qK7heeGO.js"
     ]
   },
   "resources/js/Pages/MarketPulse.jsx": {
-    "file": "assets/MarketPulse-DLIMWLBz.js",
+    "file": "assets/MarketPulse-C9WX8wmC.js",
     "name": "MarketPulse",
     "src": "resources/js/Pages/MarketPulse.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_AppLayout-BbUoyWQu.js",
-      "_D3Gauge-D3xuZYcQ.js",
-      "_PieChart-BUcWXTEn.js",
-      "_CryptoScopeLogo-oM09lSc_.js",
-      "_with-selector-DIZvrzoA.js"
+      "_AppLayout-Duqf78qZ.js",
+      "_D3Gauge-BbVbPAJm.js",
+      "_PieChart-CItoodWq.js",
+      "_CryptoScopeLogo-CN4WL7fi.js",
+      "_with-selector-DFi0ZFne.js"
     ]
   },
   "resources/js/Pages/Portfolio.jsx": {
-    "file": "assets/Portfolio-DTngxhSY.js",
+    "file": "assets/Portfolio-j0liB43V.js",
     "name": "Portfolio",
     "src": "resources/js/Pages/Portfolio.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_AppLayout-BbUoyWQu.js",
-      "_D3Gauge-D3xuZYcQ.js",
-      "_PieChart-BUcWXTEn.js",
-      "_CryptoScopeLogo-oM09lSc_.js",
-      "_with-selector-DIZvrzoA.js"
+      "_AppLayout-Duqf78qZ.js",
+      "_D3Gauge-BbVbPAJm.js",
+      "_PieChart-CItoodWq.js",
+      "_CryptoScopeLogo-CN4WL7fi.js",
+      "_with-selector-DFi0ZFne.js"
     ]
   },
   "resources/js/Pages/Profile/Edit.jsx": {
-    "file": "assets/Edit-B655bR7H.js",
+    "file": "assets/Edit-DNR5v3YQ.js",
     "name": "Edit",
     "src": "resources/js/Pages/Profile/Edit.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_AppLayout-BbUoyWQu.js",
+      "_AppLayout-Duqf78qZ.js",
       "resources/js/Pages/Profile/Partials/DeleteUserForm.jsx",
       "resources/js/Pages/Profile/Partials/UpdatePasswordForm.jsx",
       "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.jsx",
-      "_CryptoScopeLogo-oM09lSc_.js",
-      "_InputError-BKnCfFdm.js",
-      "_transition-C7AQ27-2.js",
-      "_with-selector-DIZvrzoA.js"
+      "_CryptoScopeLogo-CN4WL7fi.js",
+      "_InputError-0RHTTgzp.js",
+      "_transition-qK7heeGO.js",
+      "_with-selector-DFi0ZFne.js"
     ]
   },
   "resources/js/Pages/Profile/Partials/DeleteUserForm.jsx": {
-    "file": "assets/DeleteUserForm-xCwSnNyy.js",
+    "file": "assets/DeleteUserForm-DTSQVhZ6.js",
     "name": "DeleteUserForm",
     "src": "resources/js/Pages/Profile/Partials/DeleteUserForm.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_InputError-BKnCfFdm.js",
-      "_transition-C7AQ27-2.js",
-      "_with-selector-DIZvrzoA.js"
+      "_InputError-0RHTTgzp.js",
+      "_transition-qK7heeGO.js",
+      "_with-selector-DFi0ZFne.js"
     ]
   },
   "resources/js/Pages/Profile/Partials/UpdatePasswordForm.jsx": {
-    "file": "assets/UpdatePasswordForm-BYwgP14M.js",
+    "file": "assets/UpdatePasswordForm-B6dEzn6C.js",
     "name": "UpdatePasswordForm",
     "src": "resources/js/Pages/Profile/Partials/UpdatePasswordForm.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_InputError-BKnCfFdm.js",
-      "_transition-C7AQ27-2.js"
+      "_InputError-0RHTTgzp.js",
+      "_transition-qK7heeGO.js"
     ]
   },
   "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.jsx": {
-    "file": "assets/UpdateProfileInformationForm-Dlf-exIg.js",
+    "file": "assets/UpdateProfileInformationForm-BvKM_QSB.js",
     "name": "UpdateProfileInformationForm",
     "src": "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_InputError-BKnCfFdm.js",
-      "_transition-C7AQ27-2.js"
+      "_InputError-0RHTTgzp.js",
+      "_transition-qK7heeGO.js"
     ]
   },
   "resources/js/Pages/Screener.jsx": {
-    "file": "assets/Screener-JlOfczSQ.js",
+    "file": "assets/Screener-CPHJBREc.js",
     "name": "Screener",
     "src": "resources/js/Pages/Screener.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_AppLayout-BbUoyWQu.js",
-      "_D3Gauge-D3xuZYcQ.js",
-      "_CryptoScopeLogo-oM09lSc_.js"
+      "_AppLayout-Duqf78qZ.js",
+      "_D3Gauge-BbVbPAJm.js",
+      "_CryptoScopeLogo-CN4WL7fi.js"
     ]
   },
   "resources/js/Pages/Welcome.jsx": {
-    "file": "assets/Welcome-BfKoBf8J.js",
+    "file": "assets/Welcome-Ce70PZzv.js",
     "name": "Welcome",
     "src": "resources/js/Pages/Welcome.jsx",
     "isDynamicEntry": true,
@@ -264,18 +264,18 @@
     ]
   },
   "resources/js/Pages/WhaleDetector.jsx": {
-    "file": "assets/WhaleDetector-t5hVUrv4.js",
+    "file": "assets/WhaleDetector-t3YjprXx.js",
     "name": "WhaleDetector",
     "src": "resources/js/Pages/WhaleDetector.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_AppLayout-BbUoyWQu.js",
-      "_CryptoScopeLogo-oM09lSc_.js"
+      "_AppLayout-Duqf78qZ.js",
+      "_CryptoScopeLogo-CN4WL7fi.js"
     ]
   },
   "resources/js/app.jsx": {
-    "file": "assets/app-B8L-gpFG.js",
+    "file": "assets/app-Bbb2pTBt.js",
     "name": "app",
     "src": "resources/js/app.jsx",
     "isEntry": true,

@@ -16,9 +16,40 @@ class ScreenerController extends Controller
         $sort  = $request->get('sort', 'market_cap');
         $tag   = $request->get('tag', '');
 
-        $data = $tag
+        $rawListings = ($tag === 'defi' || $tag === 'filesharing')
             ? $this->cmc->listingsByTag($tag, $limit)
             : $this->cmc->listings($limit, $sort);
+
+        $coinsRaw = $rawListings['data'] ?? [];
+
+        // Si el tag es una categoría temática (ej. ai-big-data, layer-1, memes, real-world-assets),
+        // filtramos la colección por los tags que CMC asigna a cada activo sin provocar error 400
+        if ($tag && $tag !== 'defi' && $tag !== 'filesharing') {
+            $tagNeedle = str_replace('-', ' ', strtolower($tag));
+            $coinsRaw = collect($coinsRaw)->filter(function ($coin) use ($tag, $tagNeedle) {
+                $coinTags = array_map('strtolower', $coin['tags'] ?? []);
+                foreach ($coinTags as $ct) {
+                    if (str_contains($ct, $tag) || str_contains($ct, $tagNeedle)) {
+                        return true;
+                    }
+                    if ($tag === 'ai-big-data' && (str_contains($ct, 'ai') || str_contains($ct, 'artificial-intelligence') || str_contains($ct, 'big-data'))) {
+                        return true;
+                    }
+                    if ($tag === 'layer-1' && (str_contains($ct, 'layer-1') || str_contains($ct, 'smart-contracts') || str_contains($ct, 'pos') || str_contains($ct, 'pow'))) {
+                        return true;
+                    }
+                    if ($tag === 'memes' && (str_contains($ct, 'meme') || str_contains($ct, 'memes'))) {
+                        return true;
+                    }
+                    if ($tag === 'real-world-assets' && (str_contains($ct, 'rwa') || str_contains($ct, 'real-world-assets') || str_contains($ct, 'tokenized-gold'))) {
+                        return true;
+                    }
+                }
+                return false;
+            })->values()->all();
+        }
+
+        $data = ['data' => $coinsRaw];
 
         // Métricas globales reales directo del endpoint /v1/global-metrics/quotes/latest de CMC
         $globalRaw = $this->cmc->globalMetrics();
